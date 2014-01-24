@@ -4,8 +4,8 @@
 
 theme = {}
 
--- Todo:  Change the $USER to yourself.
-pathToConfig = "/home/ep/.config/awesome/"
+-- Setup Paths 
+pathToConfig = os.getenv("HOME") .. "/.config/awesome/"
 
 theme.font          = "sans 8"
 
